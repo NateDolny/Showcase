@@ -3,8 +3,10 @@ import React from 'react';
 function Certifications(){
     return (
         <section id="Certifications">
-        <h2>Lets Connect</h2>
-
+        <div class="grid place-items-center m-20">
+            <h2 class="font-bold text-xl">Certifications</h2>
+        </div>
+            
         </section>
     );
 }
