@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div>
+    <div class="bg-stone-50 min-h-screen">
         <About/>
         <Certifications/>
         <Projects/>

@@ -3,7 +3,7 @@ import React from 'react';
 function About(){
     return (
         <section id="about">
-            <div class="grid place-items-center m-10">
+            <div class="grid place-items-center p-10">
                 <h2 class="text-center text-3xl font-bold">Hi I am Nate</h2>
             </div>
         
