@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Card(props){
+function ActionCard(props){
     return (
     
 <div class="max-w-md p-8 shadow-sm bg-yellow-300 rounded-xl">
@@ -13,4 +13,4 @@ function Card(props){
     );
 }
 
-export default Card;
+export default ActionCard;
