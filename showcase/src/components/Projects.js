@@ -6,7 +6,7 @@ import GithubIcon from './github.svg';
 function Projects(){
     return (
         <section id="Projects">
-            <h2 class="grid place-items-center text-xl font-bold">Projects</h2>
+            <h2 class="grid place-items-center text-xl font-bold">Showcase</h2>
             
         <div class="grid grid-row-1 gap-4 sm:grid-cols-2 md:max-w-2xl 
         md:mx-auto lg:max-w-4xl m-5">
@@ -25,6 +25,8 @@ function Projects(){
             <ActionCard img={GithubIcon} img_description='github icon' 
             title='Explore More'/>
         </div>
+
+        <div class="p-10"></div>
         </section>
     );
 }
