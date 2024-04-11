@@ -26,6 +26,8 @@ function Contact(){
         <ActionCard img={Envelope} img_description='Envelope logo'/>
     </div>
 
+    <div class="p-10"></div>
+
         </section>
     );
 }
