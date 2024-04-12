@@ -1,5 +1,5 @@
 import React from 'react';
-import ActionCard from './ActionCard';
+import ActionSocialCard from './ActionSocialCard';
 import Github from './github.svg';
 import Linkedin from './linkedin-in.svg';
 import Envelope from './envelope-solid.svg';
@@ -19,11 +19,11 @@ function Contact(){
     <div class="grid grid-row-1 gap-4 sm:grid-cols-3 md:max-w-2xl
         md:mx-auto lg:max-w-4xl m-5">
        
-        <ActionCard img={Github} img_description='Github logo'/>
+        <ActionSocialCard img={Github} img_description='Github logo'/>
 
-        <ActionCard img={Linkedin} img_description='linkedin logo'/>
+        <ActionSocialCard img={Linkedin} img_description='Linkedin logo'/>
         
-        <ActionCard img={Envelope} img_description='Envelope logo'/>
+        <ActionSocialCard img={Envelope} img_description='Envelope logo'/>
     </div>
 
     <div class="p-10"></div>
