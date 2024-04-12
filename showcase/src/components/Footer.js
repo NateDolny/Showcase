@@ -4,32 +4,33 @@ function Footer(){
  return (
     <section id="Footer">
     
-    <div class="bg-stone-200 min-w-full">
-        <div>
+    <div class="grid grid-rows-1 gap-4 md:grid-cols-4 lg:grid-cols-4
+     bg-stone-200 min-w-full">
+        <div class="grid m-5 mb-2 md:justify-self-center lg:justify-self-center">
             <p class="font-bold">Nate Dolny</p>
             <p>Saskatoon,SK</p>
             <br/>
-            <p>Copyright&copy 2025</p>
+            <p>Copyright &#169; 2025</p>
             <p>All Rights Reserved</p>
         </div>
 
-        <div>
+        <div class="grid m-5 mb-2 md:justify-self-center lg:justify-self-center">
             <p class="font-bold">Sections</p>
-            <p>About</p>
-            <p>Showcase</p>
-            <p>Contact</p>
+            <p class="m-2 ml-0">About</p>
+            <p class="m-2 ml-0">Showcase</p>
+            <p class="m-2 ml-0">Contact</p>
         </div>
 
-        <div>
+        <div class="grid m-5 mb-2 md:justify-self-center lg:justify-self-center">
             <p class="font-bold">Contact</p>
-            <p>Github</p>
-            <p>Linkedin</p>
-            <p>Email</p>
+            <p class="m-2 ml-0">Github</p>
+            <p class="m-2 ml-0">Linkedin</p>
+            <p class="m-2 ml-0">Email</p>
         </div>
 
-        <div>
+        <div class="grid m-5 mb-2 md:justify-self-center lg:justify-self-center">
             <p class="font-bold">Support Me</p>
-            <p>Buy me a coffee</p>
+            <p class="m-2 ml-0">Buy me a coffee</p>
         </div>
     </div>
     </section>
