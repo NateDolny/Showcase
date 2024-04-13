@@ -17,6 +17,7 @@ function Volunteering(){
         been a part of during my studies at the University of Saskatchewan.</p>
         </div>
 
+        <div class="p-2"></div>
 
         <div class="grid grid-row-1 gap-4 sm:grid-cols-2 md:max-w-2xl
         md:mx-auto lg:max-w-4xl m-5"> 
@@ -36,7 +37,7 @@ function Volunteering(){
         <CardImage img={Git_Bootcamp}/>
         </div>
 
-        <div class="p-20"></div>
+        <div class="p-20 md:p-40 lg:p-40"></div>
         </section>
     );
 }
