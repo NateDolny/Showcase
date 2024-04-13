@@ -6,10 +6,18 @@ import Git_Bootcamp from './Git_Bootcamp1.png';
 function Volunteering(){
     return (
         <section id="Volunteering">
-        <div class="grid place-items-center m-20">
+        <div class="grid place-items-center">
             <h2 class="font-bold text-xl">Volunteering</h2>
         </div>
-        
+
+        <div class="grid m-5">
+        <p class="justify-self-center md:max-w-2xl md:mx-auto lg:max-w-4xl">
+        Through my university career I have been an active member of the
+        computer science community. Here are a few organizations I have 
+        been a part of during my studies at the University of Saskatchewan.</p>
+        </div>
+
+
         <div class="grid grid-row-1 gap-4 sm:grid-cols-2 md:max-w-2xl
         md:mx-auto lg:max-w-4xl m-5"> 
         <ListCard title='Computer Science Student Society'
