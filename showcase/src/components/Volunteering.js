@@ -1,5 +1,7 @@
 import React from 'react';
 import ListCard from './ListCard';
+import CardImage from './CardImage';
+import Git_Bootcamp from './Git_Bootcamp1.png';
 
 function Volunteering(){
     return (
@@ -22,7 +24,11 @@ function Volunteering(){
         item1='&#x2022; Created structured notes based on lecture materials'
         item2='&#x2022; Uploaded notes for students registered with Access and Equality
         Services'/>
+
+        <CardImage img={Git_Bootcamp}/>
         </div>
+
+        <div class="p-20"></div>
         </section>
     );
 }
