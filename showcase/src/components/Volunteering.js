@@ -8,7 +8,8 @@ function Volunteering(){
             <h2 class="font-bold text-xl">Volunteering</h2>
         </div>
         
-        <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-2">
+        <div class="grid grid-row-1 gap-4 sm:grid-cols-2 md:max-w-2xl
+        md:mx-auto lg:max-w-4xl m-5"> 
         <ListCard title='Computer Science Student Society'
         subtitle='Office Manager'
         item1='&#x2022; Responsible for supply of new and old inventory'
