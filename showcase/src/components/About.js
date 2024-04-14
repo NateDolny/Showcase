@@ -32,12 +32,13 @@ function About(){
                 to excel in this dynamic field.</p>
             </div>
 
-            <div class="grid grid-rows-1 grid-flow-col gap-2 md:max-w-2xl 
+            <div class="grid grid-rows-1 grid-flow-col gap-4 justify-self-start md:max-w-2xl
             md:mx-auto lg:max-w-4xl m-5">
-            <button class="p-3 bg-yellow-300 rounded-lg md:max-w-2xl 
+            <button class="p-3 bg-yellow-300 rounded-lg md:max-w-sm
             md:max-auto lg:max-w-md">Explore Projects</button>
             </div>
-
+            
+            <div class="p-2"></div>
         </section>
 
     );
