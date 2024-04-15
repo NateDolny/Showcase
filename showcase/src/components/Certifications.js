@@ -4,7 +4,7 @@ import ListCard from './ListCard';
 
 function Certifications(){
     return (
-        <section id="Certifications">
+        <section id="Certifications" class="overflow-x-hidden">
         <div class="grid place-items-center m-20">
             <h2 class="font-bold text-xl">Certifications</h2>
         </div>
@@ -24,7 +24,7 @@ function Certifications(){
             </div>
             </div>
 
-        <div class="p-20 md:p-32 lg:p-32"></div>
+        <div class="p-10 md:p-10 lg:p-20"></div>
         </section>
     );
 }
