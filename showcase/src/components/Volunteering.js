@@ -5,10 +5,9 @@ import Git_Bootcamp from './Git_Bootcamp1.png';
 
 function Volunteering(){
     return (
-        <section id="Volunteering">
-        <div class="grid place-items-center">
-            <h2 class="font-bold text-xl">Volunteering</h2>
-        </div>
+        <section id="Volunteering" class="overflow-x-hidden">
+        
+        <h2 class="grid place-items-center text-xl font-bold">Volunteering</h2>
 
         <div class="grid m-5">
         <p class="justify-self-center md:max-w-2xl md:mx-auto lg:max-w-4xl">
@@ -37,7 +36,6 @@ function Volunteering(){
         <CardImage img={Git_Bootcamp}/>
         </div>
 
-        <div class="p-20 md:p-40 lg:p-40"></div>
         </section>
     );
 }
