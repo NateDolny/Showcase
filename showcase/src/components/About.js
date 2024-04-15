@@ -2,8 +2,8 @@ import React from 'react';
 
 function About(){
     return (
-        <section id="about">
-            <div class="grid place-items-center p-10">
+        <section id="About" class="overflow-x-hidden">
+            <div class="grid place-items-center pb-2 pt-24">
                 <h2 class="text-center text-3xl font-bold">Hi I am Nate</h2>
             </div>
         
