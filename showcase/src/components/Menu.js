@@ -25,7 +25,6 @@ function Menu() {
         }
     };
     document.addEventListener('keydown', handleKeyPress);
-    
     return ()=>{
         document.removeEventListener('keydown', handleKeyPress);
     };
@@ -54,13 +53,14 @@ function Menu() {
                 
         <div class="grid place-items-center py-24 md:py-32 lg:py-32">
             <h2 class="py-10 text-3xl md:text-5xl lg:text-5xl lg:py-16 
-            font-bold">About</h2>
+            font-bold"><a href="#About" onClick={toggleMenu}>About</a></h2>
                     
             <h2 class="py-10 text-3xl md:text-5xl lg:text-5xl lg:py-16 
-            font-bold">Showcase</h2>
+            font-bold"><a href="#Projects" onClick={toggleMenu}>Showcase
+            </a></h2>
                     
             <h2 class="py-10 text-3xl md:text-5xl lg:text-5xl lg:py-16 
-            font-bold">Contact</h2>
+            font-bold"><a href="#Contact" onClick={toggleMenu}>Contact</a></h2>
 
             <h2 class="py-10 text-3xl md:text-5xl lg:text-5xl lg:py-16 
             font-bold">Help</h2>
