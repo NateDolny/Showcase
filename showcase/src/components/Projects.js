@@ -54,7 +54,7 @@ function Projects(){
         <CardImage img={TechBrands} />
         </div> 
 
-        <div class="p-20 md:p-40 lg:p-40"></div>
+        <div class="py-5 md:py-5 lg:py-8"></div>
         </section>
     );
 }
