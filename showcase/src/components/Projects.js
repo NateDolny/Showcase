@@ -7,8 +7,10 @@ import GithubIcon from './github.svg';
 
 function Projects(){
     return (
-        <section id="Projects">
-            <h2 class="grid place-items-center text-xl font-bold">Showcase</h2>
+        <section id="Projects" class="overflow-x-hidden">
+        <div class="py-10 md:py-10 lg:py-20"></div>
+
+        <h2 class="grid place-items-center text-xl font-bold">Showcase</h2>
         
         <div class="grid m-5">
         <p class="justify-self-center md:max-w-2xl md:mx-auto lg:max-w-4xl">
@@ -52,7 +54,7 @@ function Projects(){
         <CardImage img={TechBrands} />
         </div> 
 
-        <div class="p-20 md:p-40 lg:p-40"></div>
+        <div class="py-5 md:py-5 lg:py-8"></div>
         </section>
     );
 }

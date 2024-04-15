@@ -6,7 +6,10 @@ import Envelope from './envelope-solid.svg';
 
 function Contact(){
     return (
-        <section id="Contact">
+        <section id="Contact" class="overflow-x-hidden">
+        
+        <div class="py-10 md:py-10 lg:py-20"></div>
+
         <h2 class="grid place-items-center text-xl font-bold">Lets Connect</h2>
 
         <div class="grid m-5">

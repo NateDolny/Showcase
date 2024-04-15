@@ -2,8 +2,8 @@ import React from 'react';
 
 function About(){
     return (
-        <section id="about">
-            <div class="grid place-items-center p-10">
+        <section id="About" class="overflow-x-hidden">
+            <div class="grid place-items-center pb-2 pt-24">
                 <h2 class="text-center text-3xl font-bold">Hi I am Nate</h2>
             </div>
         
@@ -32,10 +32,25 @@ function About(){
                 to excel in this dynamic field.</p>
             </div>
 
-            <div class="grid grid-rows-1 grid-flow-col gap-4 justify-self-start md:max-w-2xl
-            md:mx-auto lg:max-w-4xl m-5">
-            <button class="p-3 bg-yellow-300 rounded-lg md:max-w-sm
-            md:max-auto lg:max-w-md">Explore Projects</button>
+            <div class="p-1"></div>
+
+            <div class="grid grid-cols-1 gap-16 justify-self-start 
+            md:justify-self-center md:max-w-2xl md:mx-auto lg:grid-cols-2 
+            lg:max-w-4xl m-5">
+            
+            <div>
+            <h3 class="grid place-items-center text-lg font-bold">Download cv</h3>
+
+            <p class="p-4 grid place-items-center">Select your preferred format
+            both come packaged in a sleek tape archive for easy 
+            downloading.</p>
+        
+            <div class="grid grid-cols-2 gap-4">
+                <button class="p-3 bg-yellow-300 rounded-lg">cv.pdf</button>
+                <button class="p-3 bg-yellow-300 rounded-lg">cv.tex</button>
+            </div>
+
+            </div>
             </div>
             
             <div class="p-2"></div>
