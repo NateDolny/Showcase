@@ -17,6 +17,35 @@ function Menu() {
         setIsOpen(!isOpen);
     };
 
+
+    useEffect(() => {
+    const handleKeyPress = (event) => {
+        if (event.key === 'm') {
+          setIsOpen(!isOpen);
+        }
+    };
+    document.addEventListener('keydown', handleKeyPress);
+    
+    return ()=>{
+        document.removeEventListener('keydown', handleKeyPress);
+    };
+    }, [isOpen]);
+
+
+    useEffect(() => {
+    const handleKeyPress = (event) => {
+        if (event.key === 'Escape'){
+            setIsOpen(false);
+        }
+    };
+    document.addEventListener('keydown', handleKeyPress);
+    
+    return ()=>{
+        document.removeEventListener('keydown', handleKeyPress);
+    };
+    }, [isOpen]);
+
+    
     return (
         <section>
         <div class={`fixed inset-0 bg-yellow-300 z-50 transition-opacity 
