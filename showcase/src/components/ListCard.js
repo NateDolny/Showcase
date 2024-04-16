@@ -3,7 +3,8 @@ import React from 'react';
 function ListCard(props){
     return (
     
-<div class="max-w-md p-8 shadow-sm bg-stone-200 rounded-xl">
+<div class="max-w-md p-8 shadow-sm bg-stone-200 rounded-xl hover:shadow-2xl
+    trasition duration-500 ease-in-out">
     <h3 class="p-2 text-center text-lg font-bold">{props.title}</h3>
     <h4 class="text-center text-lg mb-4">{props.subtitle}</h4>
     <ul>
