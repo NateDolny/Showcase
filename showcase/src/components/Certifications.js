@@ -17,11 +17,12 @@ function Certifications(){
             <div class="p-40"></div>
             </div>
 
-            <div class="max-w-md p-8 shadow-sm bg-yellow-300 rounded-xl">
+            <a href="#Projects"><div class="max-w-md p-8 shadow-sm bg-yellow-300 rounded-xl">
             <div class="p-20"></div>
-            <h3 class="text-center text-lg font-bold">Explore Projects</h3>
+            <h3 class="text-center text-lg font-bold">
+            Explore Projects</h3>
             <div class="p-20"></div>
-            </div>
+            </div></a>
             </div>
 
         <div class="p-10 md:p-10 lg:p-20"></div>
