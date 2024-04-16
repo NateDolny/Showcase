@@ -24,11 +24,14 @@ function Contact(){
         <div class="grid grid-row-1 gap-4 sm:grid-cols-3 md:max-w-2xl
         md:mx-auto lg:max-w-4xl m-5">
        
-        <ActionSocialCard img={Github} img_description='Github logo'/>
+        <ActionSocialCard link="https://github.com/NateDolny" img={Github} 
+        img_description='Github logo'/>
 
-        <ActionSocialCard img={Linkedin} img_description='Linkedin logo'/>
+        <ActionSocialCard link="https://ca.linkedin.com/in/nate-dolny"
+        img={Linkedin} img_description='Linkedin logo'/>
         
-        <ActionSocialCard img={Envelope} img_description='Envelope logo'/>
+        <ActionSocialCard link="mailto:aht648@usask.ca" img={Envelope} 
+        img_description='Envelope logo'/>
         </div>
 
 
