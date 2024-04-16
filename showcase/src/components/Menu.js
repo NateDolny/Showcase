@@ -47,8 +47,8 @@ function Menu() {
     
     return (
         <section>
-        <div class={`fixed inset-0 bg-yellow-300 z-50 transition-opacity 
-        duration-300 ease-in-out ${isOpen ? 'opacity-100' : 'opacity-0'} 
+        <div class={`fixed inset-0 bg-yellow-300
+        ${isOpen ? 'z-50 opacity-100' : '-z-50 opacity-0'} 
         pointer-events-auto`}>
                 
         <div class="grid place-items-center py-24 md:py-32 lg:py-32">
@@ -69,8 +69,7 @@ function Menu() {
         </div>
             
         <div class={`fixed inset-x-0 top-0 bg-stone-100 h-12 p-2 z-40 
-        transition-opacity duration-300 ease-in-out 
-        ${isOpen ? 'opacity-0' : 'opacity-100'}`}>
+        ${isOpen ? 'opacity-0' : ' opacity-100'}`}>
         </div>
             
         <button class="fixed top-0.5 right-0.5 text-white py-2 px-4 
@@ -85,4 +84,3 @@ function Menu() {
 }
 
 export default Menu;
-
