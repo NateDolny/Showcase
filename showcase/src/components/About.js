@@ -46,8 +46,10 @@ function About(){
             downloading.</p>
         
             <div class="grid grid-cols-2 gap-4">
-                <button class="p-3 bg-yellow-300 rounded-lg">cv.pdf</button>
-                <button class="p-3 bg-yellow-300 rounded-lg">cv.tex</button>
+                <button class="p-3 bg-yellow-300 rounded-lg hover:shadow-lg
+            transition duration-500 ease-in-out">cv.pdf</button>
+                <button class="p-3 bg-yellow-300 rounded-lg hover:shadow-lg 
+            transition duration-500 ease-in-out">cv.tex</button>
             </div>
 
             </div>
