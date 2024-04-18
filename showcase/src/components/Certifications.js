@@ -17,7 +17,9 @@ function Certifications(){
             <div class="p-40"></div>
             </div>
 
-            <a href="#Projects"><div class="max-w-md p-8 shadow-sm bg-yellow-300 rounded-xl">
+            <a href="#Projects"><div class="max-w-md p-8 shadow-sm 
+            bg-yellow-300 rounded-xl hover:shadow-2xl transition duration-500 
+            ease-in-out">
             <div class="p-20"></div>
             <h3 class="text-center text-lg font-bold">
             Explore Projects</h3>
