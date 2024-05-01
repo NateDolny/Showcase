@@ -9,12 +9,11 @@ function About(){
             </div>
         
 
-            <div class="grid m-5">
+            <div class="grid m-5 lg:mt-32">
                 <p class="justify-self-center md:max-w-2xl md:mx-auto 
                 lg:max-w-4xl leading-relaxed">As a third-year computer science student 
-                at the
-                University of Saskatchewan, my passion for technology has been 
-                the driving force behind my creative endeavors. Inspired by the 
+                at the University of Saskatchewan, my passion for technology 
+                has been the driving force behind my creative endeavors. Inspired by the 
                 immersive worlds of science fiction, particularly classics like 
                 Dune, I have embarked on numerous projects fuled by imagination 
                 and a thirst for learning.</p>
@@ -36,20 +35,22 @@ function About(){
             <div class="p-1"></div>
 
             <div class="grid grid-cols-1 gap-16 justify-self-center 
-            md:max-w-2xl md:mx-auto lg:max-w-4xl m-5">
+            md:max-w-2xl md:mx-auto lg:max-w-4xl m-5 mt-32">
             
             <div>
-            <h3 class="grid place-items-center text-lg font-bold">
+            <h3 class="grid place-items-center text-lg font-bold lg:text-3xl">
             Download cv</h3>
 
-            <p class="p-4 grid place-items-center lead-relaxed">Select your preferred format
+            <p class="p-4 grid place-items-center lead-relaxed lg:mt-2 lg:mb-2">Select your preferred format
             both come packaged in a sleek tarball for easy 
             downloading.</p>
         
-            <div class="grid grid-cols-2 gap-4">
-                <button class="p-3 bg-yellow-300 rounded-lg hover:shadow-lg
+            <div class="grid grid-cols-2 gap-4 lg:mt-8">
+                <button class="p-3 bg-yellow-300 rounded-lg lg:font-bold 
+                lg:text-xl hover:shadow-lg
             transition duration-500 ease-in-out cursor-pointer">cv.pdf</button>
-                <button class="p-3 bg-yellow-300 rounded-lg hover:shadow-lg 
+                <button class="p-3 bg-yellow-300 rounded-lg lg:font-bold 
+                lg:text-xl hover:shadow-lg 
             transition duration-500 ease-in-out cursor-pointer">cv.tex</button>
             </div>
 
