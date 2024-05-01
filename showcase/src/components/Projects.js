@@ -10,10 +10,11 @@ function Projects(){
         <section id="Projects" class="z-40 overflow-x-hidden">
         <div class="py-10 md:py-10 lg:py-20"></div>
 
-        <h2 class="grid place-items-center text-xl font-bold">Showcase</h2>
+        <h2 class="grid place-items-center text-xl font-bold lg:text-3xl">Showcase</h2>
         
         <div class="grid m-5">
-        <p class="justify-self-center md:max-w-2xl md:mx-auto lg:max-w-4xl">
+        <p class="justify-self-center md:max-w-2xl md:mx-auto lg:max-w-4xl
+        leading-relaxed">
         Here's a glimpse of a few projects I've developed as part of my journey 
         in learning DevOps practices. These projects serve as tangible evidence 
         of my commitment to mastering this field. I invite you to checkout my 
@@ -25,16 +26,19 @@ function Projects(){
 
         <div class="grid grid-row-1 gap-4 sm:grid-cols-2 md:max-w-2xl 
         md:mx-auto lg:max-w-4xl m-5">
-            <Card title='barefetch' description='barefetch delivers essential
+            <Card link="https://github.com/NateDolny/barefetch" 
+            title='barefetch' description='barefetch delivers essential
             system info with minimal clutter, perfect for GNU/Linux users
-            seeking streamlined performance.'/>
+            seeking streamlined performance.' hoverDescription='View Project'/>
 
-            <Card title='DuneHostnames' description='Inspired by the iconic 
+            <Card link="https://github.com/NateDolny/DuneHostnames"
+            title='DuneHostnames' description='Inspired by the iconic 
             book series Dune, authored by Frank Herbert, DuneHostnames offers a
             comprehensive array of naming schemes for network infrastructure,
             workstations, servers, and other devices.'/>
 
-            <Card title='Void-config' description='A script for automatically
+            <Card link="https://github.com/NateDolny/void-config"
+            title='Void-config' description='A script for automatically
             setting up a Void Linux desktop environment'/>
 
             <ActionCard img={GithubIcon} img_description='github icon' 
