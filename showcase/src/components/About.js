@@ -4,13 +4,14 @@ function About(){
     return (
         <section id="About" class="overflow-x-hidden">
             <div class="grid place-items-center pb-2 pt-24">
-                <h2 class="text-center text-3xl font-bold">Hi I am Nate</h2>
+                <h2 class="text-center text-3xl lg:text-7xl
+                font-bold">Hi I am Nate</h2>
             </div>
         
 
             <div class="grid m-5">
                 <p class="justify-self-center md:max-w-2xl md:mx-auto 
-                lg:max-w-4xl">As a third-year computer science student 
+                lg:max-w-4xl leading-relaxed">As a third-year computer science student 
                 at the
                 University of Saskatchewan, my passion for technology has been 
                 the driving force behind my creative endeavors. Inspired by the 
@@ -21,7 +22,7 @@ function About(){
 
             <div class="grid m-5">
                 <p class="justify-self-center md:max-w-2xl md:mx-auto 
-                lg:max-w-4xl">I am also deeply immersed in the 
+                lg:max-w-4xl leading-relaxed">I am also deeply immersed in the 
                 GNU / Linux 
                 ecosystem, finding joy in its versatility and open-source 
                 ethos. Recently, I have found myself drawn to the intricate 
@@ -41,7 +42,7 @@ function About(){
             <h3 class="grid place-items-center text-lg font-bold">
             Download cv</h3>
 
-            <p class="p-4 grid place-items-center">Select your preferred format
+            <p class="p-4 grid place-items-center lead-relaxed">Select your preferred format
             both come packaged in a sleek tarball for easy 
             downloading.</p>
         
