@@ -34,22 +34,22 @@ function About(){
 
             <div class="p-1"></div>
 
-            <div class="grid grid-cols-1 gap-16 justify-self-start 
-            md:justify-self-center md:max-w-2xl md:mx-auto lg:grid-cols-2 
-            lg:max-w-4xl m-5">
+            <div class="grid grid-cols-1 gap-16 justify-self-center 
+            md:max-w-2xl md:mx-auto lg:max-w-4xl m-5">
             
             <div>
-            <h3 class="grid place-items-center text-lg font-bold">Download cv</h3>
+            <h3 class="grid place-items-center text-lg font-bold">
+            Download cv</h3>
 
             <p class="p-4 grid place-items-center">Select your preferred format
-            both come packaged in a sleek tape archive for easy 
+            both come packaged in a sleek tarball for easy 
             downloading.</p>
         
             <div class="grid grid-cols-2 gap-4">
                 <button class="p-3 bg-yellow-300 rounded-lg hover:shadow-lg
-            transition duration-500 ease-in-out">cv.pdf</button>
+            transition duration-500 ease-in-out cursor-pointer">cv.pdf</button>
                 <button class="p-3 bg-yellow-300 rounded-lg hover:shadow-lg 
-            transition duration-500 ease-in-out">cv.tex</button>
+            transition duration-500 ease-in-out cursor-pointer">cv.tex</button>
             </div>
 
             </div>
