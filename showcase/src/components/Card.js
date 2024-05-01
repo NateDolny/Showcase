@@ -7,8 +7,8 @@ function Card(props) {
       hover:shadow-2xl transition duration-500 ease-in-out">
       <a href={props.link}>
         <h3 className="p-2 text-center text-lg font-bold
-        lg:text-2xl">{props.title}</h3>
-        <p className="p-2">{props.description}</p>
+        lg:text-xl">{props.title}</h3>
+        <p className="p-2 leading-relaxed">{props.description}</p>
       </a>
     </div>
   );
