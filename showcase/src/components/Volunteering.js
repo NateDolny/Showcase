@@ -7,10 +7,12 @@ function Volunteering(){
     return (
         <section id="Volunteering" class="overflow-x-hidden">
         
-        <h2 class="grid place-items-center text-xl font-bold">Volunteering</h2>
+        <h2 class="grid place-items-center text-xl font-bold lg:text-3xl">
+        Volunteering</h2>
 
         <div class="grid m-5">
-        <p class="justify-self-center md:max-w-2xl md:mx-auto lg:max-w-4xl">
+        <p class="justify-self-center md:max-w-2xl md:mx-auto lg:max-w-4xl
+        leading-relaxed">
         Through my university career I have been an active member of the
         computer science community. Here are a few organizations I have 
         been a part of during my studies at the University of Saskatchewan.</p>
