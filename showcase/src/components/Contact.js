@@ -6,14 +6,16 @@ import Envelope from './envelope-solid.svg';
 
 function Contact(){
     return (
-        <section id="Contact" class="overflow-x-hidden">
+        <section id="Contact" class="z-20 overflow-x-hidden">
         
         <div class="py-10 md:py-10 lg:py-20"></div>
 
-        <h2 class="grid place-items-center text-xl font-bold">Lets Connect</h2>
+        <h2 class="grid place-items-center text-xl font-bold lg:text-3xl">
+        Lets Connect</h2>
 
         <div class="grid m-5">
-        <p class="justify-self-center md:max-w-2xl md:mx-auto lg:max-w-4xl">
+        <p class="justify-self-center md:max-w-2xl md:mx-auto lg:max-w-4xl
+        leading-relaxed">
         I'm always eager to embrace new learning opportunities and collaborate 
         on exciting projects. Lets connect and build something awesome together
         !</p>
