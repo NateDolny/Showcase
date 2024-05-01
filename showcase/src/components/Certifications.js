@@ -5,8 +5,8 @@ import ListCard from './ListCard';
 function Certifications(){
     return (
         <section id="Certifications" class="overflow-x-hidden">
-        <div class="grid place-items-center m-20">
-            <h2 class="font-bold text-xl">Certifications</h2>
+        <div class="grid place-items-center m-20 lg:mt-36">
+            <h2 class="font-bold text-xl lg:text-3xl">Certifications</h2>
         </div>
         <div class="grid grid-cols-1 gap-16 justify-self-start
             md:grid-cols-2 md:max-w-2xl md:mx-auto lg:grid-cols-2
